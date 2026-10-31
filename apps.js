@@ -73,13 +73,8 @@ window.SITE = {
   brand: "SwipaholicGames",
   tagline: "指先ひとつで、夢中になる。",
   lead: "SwipaholicGames は「ゲームが好きすぎてつくりはじめてしまった人」がスマホゲームをつくるインディーゲームスタジオ(自称)です。",
-  contactEmail: "contact@example.com",
   sns: {
-    x: "https://x.com/",
+    x: "https://x.com/swipaholic2026",
     line: "",
   },
-  links: [
-    { label: "プライバシーポリシー", url: "#" },
-    { label: "お問い合わせ", url: "mailto:contact@example.com" },
-  ],
 };
