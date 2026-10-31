@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SwipaholicGames | 公式ゲームポートフォリオ</title>
+<meta name="description" content="SwipaholicGames が開発したスマホゲームアプリの公式サイト一覧です。">
+<meta property="og:title" content="SwipaholicGames">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="nav">
+  <a href="#top" class="nav__logo"><span class="logo-mark">S</span><span data-site="brand">SwipaholicGames</span></a>
+  <nav class="nav__links">
+    <a href="#games">GAMES</a>
+    <a href="#about">ABOUT</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+    <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span>
+    <span class="spark s4">✧</span><span class="spark s5">✦</span><span class="spark s6">✦</span>
+  </div>
+  <div class="hero__float" id="heroFloat" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <p class="hero__eyebrow">SMARTPHONE GAME STUDIO</p>
+    <h1 class="hero__title">Swipa<span>holic</span><br>Games</h1>
+    <p class="hero__tagline" data-site="tagline"></p>
+    <div class="hero__stats" id="heroStats"></div>
+    <a href="#games" class="btn btn--big">ゲーム一覧を見る <span aria-hidden="true">↓</span></a>
+  </div>
+  <div class="swipe-hint" aria-hidden="true"><span></span>SWIPE</div>
+</section>
+
+<!-- ===== PICK UP ===== -->
+<section class="pickup" id="pickup" hidden>
+  <h2 class="sec-title"><span class="sec-title__en">PICK UP</span><span class="sec-title__ja">注目のタイトル</span></h2>
+  <div id="pickupBody"></div>
+</section>
+
+<!-- ===== GAMES ===== -->
+<section class="games" id="games">
+  <h2 class="sec-title"><span class="sec-title__en">GAMES</span><span class="sec-title__ja">ゲーム一覧</span></h2>
+
+  <div class="filters">
+    <div class="chips" id="statusChips" role="group" aria-label="配信状況で絞り込み"></div>
+    <div class="chips chips--sub" id="genreChips" role="group" aria-label="ジャンルで絞り込み"></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>該当するゲームはありません。</p>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <h2 class="sec-title"><span class="sec-title__en">ABOUT</span><span class="sec-title__ja" data-site="aboutTitle">私について</span></h2>
+  <p class="about__lead" data-site="lead"></p>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="contact">
+  <p class="footer__follow">FOLLOW US ON</p>
+  <div class="sns" id="sns"></div>
+  <p class="footer__mail">お問い合わせ：<a id="mail" href="#"></a></p>
+  <ul class="footer__links" id="footerLinks"></ul>
+  <p class="footer__copy">© <span id="year"></span> <span data-site="brand"></span> All Rights Reserved.</p>
+</footer>
+
+<script src="apps.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
