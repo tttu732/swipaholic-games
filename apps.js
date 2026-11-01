@@ -25,8 +25,8 @@ window.APPS = [
   {
     id: "swipaholic",
     name: "Swipaholic",
-    catch: "",
-    description: "",
+    catch: "中毒性MAX!爽快コンボ＆無限強化",
+    description: "画面に現れる犬をひたすらスワイプ、ランク上位を目指せ！",
     genre: "",
     status: "released",
     releaseDate: "",
@@ -39,8 +39,8 @@ window.APPS = [
   {
     id: "neco-yusha",
     name: "ねこ勇者",
-    catch: "",
-    description: "",
+    catch: "放置育成RPG",
+    description: "もふもふのねこ勇者が、放っておいても勝手に戦ってレベルアップ。転生をくり返して、ダンジョンのどこまでも奥へ。",
     genre: "",
     status: "dev",
     releaseDate: "",
@@ -53,8 +53,8 @@ window.APPS = [
   {
     id: "neco-mahou",
     name: "ねこ魔法",
-    catch: "",
-    description: "",
+    catch: "声で唱えろ、魔法がかわる。",
+    description: "画面に流れる呪文を、スマホのマイクに向かって唱えよう。とぎれずに唱えきれたか、出だしのタイミング、さいごの叫びの大きさで、魔法の威力が決まる。",
     genre: "",
     status: "dev",
     releaseDate: "",
