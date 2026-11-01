@@ -74,7 +74,7 @@ window.APPS = [
     releaseDate: "",
     icon: "https://tttu732.github.io/NYAKKEN/nyakken.png",
     emoji: "✊",
-    color: ["d7466d", "7f3768"],
+    color: ["#d7466d", "#7f3768"],
     site: "https://tttu732.github.io/NYAKKEN/NYAKKEN.html",
     featured: false,
   },
