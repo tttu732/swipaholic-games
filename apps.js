@@ -68,7 +68,7 @@ window.APPS = [
     id: "NYAKKEN",
     name: "にゃっ拳",
     catch: "ねこ界の強者たちの肉球拳バトル",
-    description: "本格的な格ゲーコマンド操作、お気に入りキャラで勝利をつかめ！(2.5頭身キャラ版はブラウザゲームですぐ遊べます。)",
+    description: "本格的な格ゲーコマンド操作、お気に入りキャラで勝利をつかめ！",
     genre: "",
     status: "dev",
     releaseDate: "",
