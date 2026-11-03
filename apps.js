@@ -74,8 +74,8 @@ window.APPS = [
     releaseDate: "",
     icon: "https://tttu732.github.io/swipaholic-games/nyakken.png",
     emoji: "✊",
-    color: ["#d7466d", "#7f3768"],
-    site: "https://tttu732.github.io/NYAKKEN/NYAKKEN.html",
+    color: ["#0067C0", "#0054A6"],
+    site: "https://tttu732.github.io/NYAKKEN/",
     featured: false,
   },
 ];
