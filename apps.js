@@ -26,7 +26,7 @@ window.APPS = [
     id: "swipaholic",
     name: "Swipaholic",
     catch: "中毒性MAX!爽快コンボ＆無限強化",
-    description: "画面に現れる犬をひたすらスワイプ、指がこわれるまでランク上位を目指せ！みんなのスワイプで社会貢献しよう。",
+    description: "画面に現れる犬をひたすらスワイプ、指がこわれるまでランク上位を目指せ！みんなのスワイプで社会貢献しよう。(DB一時停止中)",
     genre: "",
     status: "released",
     releaseDate: "",
