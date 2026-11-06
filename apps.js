@@ -70,7 +70,7 @@ window.APPS = [
     catch: "ねこ界の強者たちの肉球拳バトル",
     description: "本格的な格ゲーコマンド操作、お気に入りキャラで勝利をつかめ！",
     genre: "",
-    status: "dev",
+    status: "released",
     releaseDate: "",
     icon: "https://tttu732.github.io/swipaholic-games/nyakken.png",
     emoji: "✊",
