@@ -48,7 +48,7 @@ window.APPS = [
     emoji: "🐱",
     color: ["#8fd3ff", "#9be07a"],
     site: "https://tttu732.github.io/neco-yusha/",
-    featured: true,
+    featured: false,
   },
   {
     id: "neco-mahou",
@@ -76,7 +76,7 @@ window.APPS = [
     emoji: "✊",
     color: ["#0067C0", "#0054A6"],
     site: "https://tttu732.github.io/NYAKKEN/",
-    featured: false,
+    featured: true,
   },
 ];
 
