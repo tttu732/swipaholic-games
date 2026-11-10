@@ -56,7 +56,7 @@ window.APPS = [
     catch: "声で唱えろ、魔法がかわる。",
     description: "画面に流れる呪文を、スマホのマイクに向かって唱えよう。とぎれずに唱えきれたか、出だしのタイミング、さいごの叫びの大きさで、魔法の威力が決まる。",
     genre: "",
-    status: "dev",
+    status: "prereg",
     releaseDate: "",
     icon: "https://tttu732.github.io/swipaholic-games/neco-mahou.png",
     emoji: "🔮",
