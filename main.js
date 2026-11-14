@@ -79,8 +79,8 @@
     const v = SITE[el.dataset.site];
     if (v) el.textContent = v;
   });
-  $("#year").textContent = new Date().getFullYear();
-  if (SITE.contactEmail) {
+  if ($("#year")) $("#year").textContent = new Date().getFullYear();
+  if (SITE.contactEmail && $("#mail")) {
     $("#mail").textContent = SITE.contactEmail;
     $("#mail").href = "mailto:" + SITE.contactEmail;
   }
@@ -95,6 +95,9 @@
     .filter(([, url]) => url)
     .map(([k, url]) => `<a href="${esc(url)}" target="_blank" rel="noopener" aria-label="${k}">${SNS_ICON[k] || k}</a>`)
     .join("");
+
+  // ここから下はトップページ専用（ガイドラインページなどでは実行しない）
+  if (!$("#grid")) return;
 
   /* ---------- ヒーロー：浮遊アイコンと数字 ---------- */
   // アプリ数が6未満でも6か所すべてに浮かぶよう、順番に繰り返して配置

@@ -86,7 +86,7 @@ window.APPS = [
     genre: "",
     status: "dev",
     releaseDate: "",
-    icon: "https://tttu732.github.io/wanchan-racers/wanchan-racers.png",
+    icon: "https://tttu732.github.io/swipaholic-games/wanchan-racers.png",
     emoji: "✊",
     color: ["#dce7f1", "#68b0f8"],
     site: "https://tttu732.github.io/wanchan-racers/",
