@@ -78,6 +78,20 @@ window.APPS = [
     site: "https://tttu732.github.io/NYAKKEN/",
     featured: false,
   },
+  {
+    id: "wanchan-racers",
+    name: "ワンチャンレーサーズ",
+    catch: "パイロット育成 × 爆速エアレース",
+    description: "ジャンク品からエンジンをカスタマイズ、ワンチャン、空のてっぺんへ！",
+    genre: "",
+    status: "dev",
+    releaseDate: "",
+    icon: "https://tttu732.github.io/wanchan-racers/wanchan-racers.png",
+    emoji: "✊",
+    color: ["#dce7f1", "#68b0f8"],
+    site: "https://tttu732.github.io/wanchan-racers/",
+    featured: false,
+  },
 ];
 
 /* ---------------------------------------------------------
@@ -87,8 +101,12 @@ window.SITE = {
   brand: "SwipaholicGames",
   tagline: "指先ひとつで、夢中になる。",
   lead: "SwipaholicGames は「ゲームが好きすぎてつくりはじめてしまった人」がスマホゲームをつくるインディーゲームスタジオ(自称)です。",
+  contactEmail: "swipaholic.app@gmail.com",
   sns: {
     x: "https://x.com/swipaholic2026",
     line: "",
   },
+  links: [
+    { label: "配信・二次創作ガイドライン", url: "guideline.html#top" },
+  ],
 };
