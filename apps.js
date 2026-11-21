@@ -122,5 +122,6 @@ window.SITE = {
   },
   links: [
     { label: "配信・二次創作ガイドライン", url: "guideline.html#top" },
+    { label: "プレス・メディアの皆さまへ", url: "press.html#top" },
   ],
 };
