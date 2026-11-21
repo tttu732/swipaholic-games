@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プレス・メディアの皆さまへ | SwipaholicGames</title>
+<meta name="description" content="SwipaholicGames のプレスリリース、ゲーム概要、画像素材をまとめたメディア向けページです。">
+<meta property="og:title" content="プレス・メディアの皆さまへ｜SwipaholicGames">
+<meta property="og:description" content="SwipaholicGames のプレスリリースと画像素材">
+<meta property="og:image" content="https://tttu732.github.io/swipaholic-games/ogp.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="nav">
+  <a href="index.html" class="nav__logo"><span class="logo-mark">S</span><span data-site="brand">SwipaholicGames</span></a>
+  <nav class="nav__links">
+    <a href="index.html#pickup">PICK UP</a>
+    <a href="index.html#games">GAMES</a>
+    <a href="index.html#about">ABOUT</a>
+    <a href="#contact">CONTACT</a>
+    <a href="guideline.html#top">GUIDELINE</a>
+  </nav>
+</header>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="page-head" id="top">
+  <div class="hero__bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span>
+    <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s4">✧</span>
+  </div>
+  <h1 class="sec-title"><span class="sec-title__en">PRESS</span><span class="sec-title__ja">メディアの皆さまへ</span></h1>
+  <p class="page-head__lead" id="pressIntro"></p>
+</section>
+
+<main class="press">
+
+  <!-- リリース一覧（目次） -->
+  <nav class="press__index" aria-label="プレスリリース一覧">
+    <p class="press__label">PRESS RELEASES</p>
+    <ul id="pressIndex"></ul>
+  </nav>
+
+  <!-- リリース本体 -->
+  <div id="pressList"></div>
+
+  <!-- 素材の利用・スタジオ情報 -->
+  <section class="press__info" id="studio">
+    <h2>画像素材のご利用について</h2>
+    <p id="pressUsage"></p>
+    <p class="press__note">詳しくは <a href="guideline.html#top">配信・二次創作ガイドライン</a> もあわせてご覧ください。</p>
+
+    <h2>スタジオ情報</h2>
+    <table class="facts" id="studioFacts"></table>
+
+    <h2>取材・お問い合わせ</h2>
+    <p>取材のご依頼、追加の素材、レビュー用のご相談などは、下記までお気軽にご連絡ください。</p>
+    <p class="press__mail"><a class="js-mail" href="#"></a></p>
+  </section>
+
+  <p class="guide__back"><a href="index.html" class="btn btn--big"><span aria-hidden="true">←</span> トップページへ戻る</a></p>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="contact">
+  <p class="footer__follow">FOLLOW US ON</p>
+  <p class="footer__cheer">面白いと思ったゲームがあったら、ぜひ応援してもらえると開発の励みになります。<br>いいね、リポスト、フォロー、コメントなど、どんな応援もうれしいです！</p>
+  <div class="sns" id="sns"></div>
+  <p class="footer__mail">お問い合わせ：<a id="mail" href="#"></a></p>
+  <ul class="footer__links" id="footerLinks"></ul>
+  <p class="footer__copy">© <span id="year"></span> <span data-site="brand"></span> All Rights Reserved.</p>
+</footer>
+
+<!-- コピー完了の通知 -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="apps.js"></script>
+<script src="press.js"></script>
+<script src="main.js"></script>
+<script src="press-main.js"></script>
+</body>
+</html>
