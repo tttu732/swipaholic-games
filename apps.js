@@ -106,6 +106,20 @@ window.APPS = [
     site: "https://tttu732.github.io/niki/",
     featured: false,
   },
+　{
+    id: "kusage",
+    name: "草ゲー",
+    catch: "借金500万円。返す方法はただひとつ、地下闘技場で勝つこと。",
+    description: "葉物野菜をつないで一発逆転する、草パズルバトル。",
+    genre: "",
+    status: "dev",
+    releaseDate: "",
+    icon: "https://tttu732.github.io/swipaholic-games/kusage.png",
+    emoji: "🍃",
+    color: ["#FF1A8C", "#B8A3B6"],
+    site: "https://tttu732.github.io/kusage/",
+    featured: false,
+  },
 ];
 
 /* ---------------------------------------------------------
