@@ -120,6 +120,20 @@ window.APPS = [
     site: "https://tttu732.github.io/kusage/",
     featured: false,
   },
+　{
+    id: "nyajira",
+    name: "ニャジラ",
+    catch: "昭和ネオン街 リズム大破壊",
+    description: "ねこ×怪獣の「ニャジラ」になって、リズムに乗って北海道から九州まで大暴れしよう",
+    genre: "",
+    status: "dev",
+    releaseDate: "",
+    icon: "https://tttu732.github.io/swipaholic-games/nyajira.png",
+    emoji: "🐈",
+    color: ["#a04bff", "#ff3fa4"],
+    site: "https://tttu732.github.io/nyajira/",
+    featured: false,
+  },
 ];
 
 /* ---------------------------------------------------------
