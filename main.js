@@ -89,7 +89,7 @@
     .join("");
   const SNS_ICON = {
     x: '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.2 2.3h3.4l-7.4 8.4 8.7 11.5h-6.8l-5.3-7-6.1 7H1.3l7.9-9L.8 2.3h7l4.8 6.4 5.6-6.4zm-1.2 17.9h1.9L7.1 4.2H5.1l11.9 16z"/></svg>',
-    ofuse: '<img src="https://tttu732.github.io/swipaholic-games/ofuse.png">ofuse</img>', 
+    ofuse: '<img src="https://tttu732.github.io/swipaholic-games/ofuse.png"></img>', 
     line: '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.5 2 2 5.6 2 10.1c0 4 3.6 7.4 8.4 8 .3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5 1.1-.5 5.9-3.5 8-6 1.5-1.6 2-3.2 2-4.9C22 5.6 17.5 2 12 2z"/></svg>',
   };
   $("#sns").innerHTML = Object.entries(SITE.sns || {})
