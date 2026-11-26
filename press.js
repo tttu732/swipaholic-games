@@ -21,6 +21,48 @@
    ========================================================= */
 
 window.PRESS = [
+ {
+    id: "kusage",
+    date: "2026-11-26",
+    app: "kusage",
+    title: "同じ葉物野菜を指でなぞってつなげ。コンボとFEVERで、取り立て屋を倒す草パズルバトル『草ゲー』11月下旬配信予定",
+    lead:
+      "SwipaholicGames は、iPhone向け草パズルバトル『草ゲー』を2026年11月下旬に App Store で配信します。",
+    body: [
+      "本作は、利息に追われる借金500万円の農家、草野ゲンジが、地下闘技場で人生逆転をかけた草ゲーに参加、借金返済をめざすゲームです。農家の強みを生かし、見分けづらい葉物野菜を指でなぞってつなげます。",
+    ],
+    features: [
+      { title: "同じ草を3つ以上つなぐ", text: "同じ葉物野菜を3つ以上なぞると攻撃。たくさんつなぐほどダメージが大きい。敵の弱点の草なら1.5倍。" },
+      { title: "コンボとFEVER", text: "手を止めずに消し続けるとコンボ。ゲージが満タンになるとFEVERで8秒間ダメージ2倍。" },
+      { title: "スキル「雑草魂」", text: "草を28個消すとゲンジが光る。タップすると一番多い草を根こそぎ消し、6秒間どの草でもつなげ放題。" },
+      { title: "勝って、借金を返す", text: "勝てば賞金で借金を返済。スコアは経験値になり、草レベルが上がるとゲンジの攻撃力とHPが上がる。" },
+      { title: "見分けにくい、葉物野菜30種。", text: "盤面に並ぶのは、よく似た3つ組。チンゲン菜と小松菜とほうれん草、一瞬で見分けられますか。草レベルを上げると新しいセットが解放されます。" },
+    ],
+    facts: [
+      ["タイトル", "草ゲー"],
+      ["ジャンル", "草パズルバトル"],
+      ["配信日", "2026年11月下旬"],
+      ["対応端末", "iPhone"],
+      ["価格", "基本プレイ無料（広告あり）"],
+      ["開発", "SwipaholicGames"],
+    ],
+    images: [
+      "https://tttu732.github.io/kusage/shot1.jpg",
+      "https://tttu732.github.io/kusage/shot2.jpg",
+      "https://tttu732.github.io/kusage/shot3.jpg",
+      "https://tttu732.github.io/kusage/shot4.jpg",
+      "https://tttu732.github.io/kusage/shot5.jpg",
+    ],
+    kit: [
+      { label: "アプリアイコン", url: "https://tttu732.github.io/kusage/apple-touch-icon.png" },
+      { label: "メインビジュアル（640×320）", url: "https://tttu732.github.io/kusage/ogp.jpg" },
+    ],
+    links: [
+      { label: "公式サイト", url: "https://tttu732.github.io/kusage/" },
+      { label: "App Store", url: "https://apps.apple.com/jp/app/id6838381842" },
+    ],
+    credits: "© 2026 草ゲー",
+  },
   {
     id: "wanchan-racers",
     date: "2026-11-21",
@@ -100,6 +142,7 @@ window.PRESS = [
     ],
     links: [
       { label: "公式サイト", url: "https://tttu732.github.io/neco-yusha/" },
+      { label: "App Store", url: "https://apps.apple.com/jp/app/id6827196685" },
     ],
     credits: "© 2026 ねこ勇者",
   },
@@ -140,8 +183,9 @@ window.PRESS = [
     ],
     links: [
       { label: "公式サイト", url: "https://tttu732.github.io/niki/" },
+      { label: "App Store", url: "https://apps.apple.com/jp/app/id6836397470" },
     ],
-    credits: "※画面は開発中のものです。ボイス：VOICEVOX:離途　© 2026 NIKI",
+    credits: "ボイス：VOICEVOX:離途　© 2026 NIKI",
   },
   {
     id: "neco-mahou",
@@ -195,7 +239,8 @@ window.PRESS = [
       "十年前、紅い満月の夜に肉球拳の宗家・大師範ニャン斎が姿を消し、奥義書『肉球真経』は八つに裂かれた。その切れ端「肉球印」を手にした八匹のねこが、肉球拳の正統後継をかけて戦います。8人それぞれの物語が交差し、伏線がつながるとき、真相が明らかになります。",
     ],
     features: [
-      { title: "スマホで本格コマンドバトル", text: "↓↘→＋P、→↓↘＋P など、格闘ゲームおなじみのコマンド入力に対応。バーチャルスティックと2ボタンで遊びやすく。" },
+      { title: "スマホで本格コマンドバトル", text: "↓↘→＋P、→↓↘＋P など、格闘ゲームおなじみのコマンド入力に対応。バーチャルスティックとボタンで遊びやすく。" },
+      { title: "操作設定が充実", text: "アーケード寄りのクラシック操作、格ゲーライト層でも楽しめるモダン操作、対戦でのゲームパッド操作と好きな操作で遊べます。" },
       { title: "超必殺技で一発逆転", text: "にゃんゲージを溜めて、迫力のカットインから超必殺技。キャンセル・チェーンでコンボもつながります。" },
       { title: "8人の猫拳士と全40章のストーリー", text: "スピード型、パワー型、テクニカル型など個性豊かな8人。それぞれの物語を集めて真相へ。" },
       { title: "対戦・ランキング", text: "Wi‑Fiで近くの友だちと、Game Center で全国のプレイヤーと対戦。ねこ鈴ランキングで肉球拳聖をめざします。" },
