@@ -146,6 +146,7 @@ window.SITE = {
   contactEmail: "swipaholic.app@gmail.com",
   sns: {
     x: "https://x.com/swipaholic2026",
+    ofuse: "https://ofuse.me/swipaholic_games",
     line: "",
   },
   links: [
