@@ -109,7 +109,7 @@ window.PRESS = [
     id: "neco-yusha",
     date: "2026-11-22",
     app: "neco-yusha",
-    title: "もふもふのねこ勇者が無限ダンジョンを進む放置育成RPG『ねこ勇者 〜無限ダンジョンで無双する〜』11月22日(日)リリース、App Store にて配信中",
+    title: "もふもふのねこ勇者が無限ダンジョンを進む放置育成RPG『ねこ勇者 〜無限ダンジョンで無双する〜』11月22日(日)リリース、App Store にて配信開始",
     lead:
       "SwipaholicGames は、放置育成RPG『ねこ勇者 〜無限ダンジョンで無双する〜』を App Store にて配信中です。基本プレイ無料で、iPhone・iPad で遊べます。",
     body: [
@@ -150,7 +150,7 @@ window.PRESS = [
     id: "niki",
     date: "2026-11-23",
     app: "niki",
-    title: "バーコードから相棒「ニキ」を召喚して走り抜ける疾走2Dアクション『NIKI』、11月23(月)リリース！App Store にて配信中",
+    title: "バーコードから相棒「ニキ」を召喚して走り抜ける疾走2Dアクション『NIKI』、11月23(月)リリース！App Store にて配信開始",
     lead:
       "SwipaholicGames は、召喚×疾走2Dアクション『NIKI（ニキ）』を App Store にて配信中です。身の回りのバーコードやQRコードが、世界に1体だけの相棒「ニキ」に変わります。",
     body: [
