@@ -144,7 +144,7 @@ window.APPS = [
     releaseDate: "",
     icon: "https://tttu732.github.io/swipaholic-games/dbc.png",
     emoji: "💻",
-    color: ["#a04bff", "#ff3fa4"],
+    color: ["#2EB8FD", "#FC3D99"],
     site: "https://tttu732.github.io/devbuddyconnect/",
     featured: false,
   },
