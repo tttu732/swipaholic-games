@@ -134,6 +134,20 @@ window.APPS = [
     site: "https://tttu732.github.io/nyajira/",
     featured: false,
   },
+  {
+    id: "dbc",
+    name: "DevBuddyConnect",
+    catch: "個人開発者を、ひとりにしない。",
+    description: "バーコードで生まれる、あなただけの相棒。集中タイムも休憩も、歩数も睡眠も、ぜんぶ見て応援してくれる。やる気と健康を、相棒と一緒にこつこつ積み上げよう。",
+    genre: "",
+    status: "dev",
+    releaseDate: "",
+    icon: "https://tttu732.github.io/swipaholic-games/dbc.png",
+    emoji: "💻",
+    color: ["#a04bff", "#ff3fa4"],
+    site: "https://tttu732.github.io/devbuddyconnect/",
+    featured: false,
+  },
 ];
 
 /* ---------------------------------------------------------
