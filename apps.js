@@ -112,7 +112,7 @@ window.APPS = [
     catch: "借金500万円。返す方法はただひとつ、地下闘技場で勝つこと。",
     description: "葉物野菜をつないで一発逆転する、草パズルバトル。",
     genre: "",
-    status: "prereg",
+    status: "released",
     releaseDate: "2026-11-29",
     icon: "https://tttu732.github.io/swipaholic-games/kusage.png",
     emoji: "🍃",
