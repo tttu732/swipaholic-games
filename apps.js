@@ -161,7 +161,7 @@ window.SITE = {
   sns: {
     x: "https://x.com/swipaholic2026",
     ofuse: "https://ofuse.me/swipaholic_games",
-    youtube: "https://www.youtube.com/@Swipaholic2026",
+    youtube: "https://www.youtube.com/channel/UCyn2fkGhRw-5tYdj6xNfbjQ",
     line: "",
   },
   links: [
